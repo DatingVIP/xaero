@@ -20,3 +20,7 @@ Run
 ```
 php xaero.php [options] [flags]
 ```
+
+![screenshot](https://raw.githubusercontent.com/DatingVIP/xaero/master/img/screen.png)
+
+*More to come ...*
