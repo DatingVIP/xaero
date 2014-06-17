@@ -51,7 +51,7 @@ class Config implements \ArrayAccess {
                                 switch (substr($lv, 0, $si)) {
                                     /* virtual php stream */
                                     case "php":
-                                        $section = @include(substr($lv, $si+3));
+                                        $section = @include(substr($value, $si+3));
                                     break;
                                     
                                     default:
